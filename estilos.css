@@ -9,6 +9,7 @@
     --color_complementario:rgb(26, 46, 156);
     --color_interaccion:rgb(43, 74, 255);
     --color_fuente:white;
+    --color_fuente_oscuro:rgb(0, 0, 0);
     --color_mostrario:rgb(189, 189, 189);
     --fuente_titulos:Arial, Helvetica, sans-serif;
 }
@@ -54,7 +55,7 @@
 }
 
 
-.mostrario{
+.mostrario{  /*creo un contenedor llamado mostrario*/
     margin: 0 auto;
     height: 600px;
     width: 600px;
@@ -65,8 +66,41 @@
     padding: 15px;
 }
 
-.mostrario_titulo{
+.mostrario_titulo{ /*agrego parametros al titulo*/
     font-family: var(--fuente_titulos);
     margin: 10px;
     font-size: 27px;
+}
+
+.card{ /*creo un elemento card*/
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 5px;
+    height: 380px;
+    width: 310px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgba(255, 255, 255, 0.671);
+    border-radius: 15px;
+}
+
+.card_titulo{ /*aplico parametros al titulo de la card*/
+    font-family: var(--fuente_titulos);
+    color: var(--color_fuente_oscuro);
+    font-weight: 700;
+    margin: 10px;
+}
+
+.card_imagen{ /*Asigno tamaño a la imagen de la card*/
+    height: 250px;
+    width: 200px;
+    margin: 10px;
+    background-size: cover;
+}
+
+.card_texto{ /*aplico estilo al texto de la card*/
+    text-align: left;
+    font-family: var(--fuente_titulos);
+    color: var(--color_fuente_oscuro);
+    font-size: 11px;
+    margin: 5px;
 }
