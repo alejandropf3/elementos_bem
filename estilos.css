@@ -316,3 +316,45 @@
     color: var(--color_fuente_oscuro);
     font-family: var(--fuente_titulos);
 }
+
+.categorias{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: var(--color_principal);
+    font-family: var(--fuente_titulos);
+    color: var(--color_fuente);
+}
+
+.categorias-contenedor{
+    border: 3px solid white;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.califica{
+    height: 350px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: salmon;
+}
+
+.califica-label{
+    font-family: var(--fuente_titulos);
+    font-size: 19px;
+    color: var(--color_fuente_oscuro);
+    display: inline-block;
+    margin: 3px;
+}
+
+.califica-input{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.646);
+    border-radius: 15px;
+}
