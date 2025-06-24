@@ -200,3 +200,26 @@
     border-color: gold;
     transition: 0.3s;
 }
+
+.componente_tareas{
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+}
+.componente_tareas-label{
+    margin: 10px 0px;
+    font-family: var(--fuente_titulos);
+    font-size: 20px;
+    color: var(--color_fuente_oscuro);
+    font-weight: 600;
+}
+
+.componente_tareas-input{
+    height: 20px;
+    width: 20px;
+}
