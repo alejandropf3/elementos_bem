@@ -220,7 +220,7 @@
     transition: 0.3s;
 }
 
-.componente_tareas{
+.componente_tareas{ /*Creo cuadro de tareas*/
     border-radius: 15px;
     border: 2px solid black;
     margin: 0 auto;
@@ -230,7 +230,7 @@
     width: 300px;
     background-color: darkorange;
 }
-.componente_tareas-label{
+.componente_tareas-label{ /*Modifico los textos*/
     margin: 10px 0px;
     font-family: var(--fuente_titulos);
     font-size: 20px;
@@ -238,13 +238,13 @@
     font-weight: 600;
 }
 
-.componente_tareas-input{
-    height: 20px;
+.componente_tareas-input{ /*modifico el tamaño de los check*/
+    height: 20px; 
     width: 20px;
 }
 
 
-.mensaje_boton{
+.mensaje_boton{ 
     position: absolute;
     margin-top: 20px;
     right: 570px;
@@ -259,7 +259,7 @@
     cursor: pointer;
 }
 
-.mensaje_oculto{
+.mensaje_oculto{ /*oculto el elemento con la opacidad 0*/
     margin: 0 auto;
     background-color: coral;
     height: 100px;
@@ -272,6 +272,14 @@
     left: 500px;
 }
 
-.mensaje_oculto:hover{
+.mensaje_oculto:hover{ /*aumento la opacidad del elemento a 1*/
     opacity: 1;
+}
+
+.tabla-borde , td , th, caption{ /*aplico borde y color a la tabla*/
+    margin: 0 auto;
+    border: solid 2px black;
+    background-color: white;
+    font-family: var(--fuente_titulos);
+    font-size: 20px;
 }
