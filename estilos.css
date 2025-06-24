@@ -1,0 +1,72 @@
+*{ /*Utilizo el selector universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{ /*Utilizo root para crear variables personalizadas*/
+    --color_principal:rgb(102, 139, 240);
+    --color_complementario:rgb(26, 46, 156);
+    --color_interaccion:rgb(43, 74, 255);
+    --color_fuente:white;
+    --color_mostrario:rgb(189, 189, 189);
+    --fuente_titulos:Arial, Helvetica, sans-serif;
+}
+
+.contenedor{ /*se aplican los parametros para el contenedor de las cajas*/
+    background-color: var(--color_principal);
+    border: 2px;
+    border-radius: 10px;
+    height: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.caja{ /*Creo el modelo de caja*/
+    background-color: var(--color_complementario);
+    position: relative;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.caja:hover{ /*Utilizo hover para cambiar el color defondo de la caja al posar el cursor sobre esta*/
+    background-color: var(--color_interaccion);
+    transition: 0.3s;
+}
+
+.caja_navegacion{ /*Posciciono la caja de navegacion*/
+    position:absolute;
+    left: 40px;
+    top: 110px;
+}
+
+.caja-links{ /*aplico estilos a los links*/
+    font-size: 30px;
+    font-family: var(--fuente_titulos);
+    font-weight: 600;
+    color: var(--color_fuente);
+    text-decoration: none;
+}
+
+
+.mostrario{
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: var(--color_mostrario);
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+}
+
+.mostrario_titulo{
+    font-family: var(--fuente_titulos);
+    margin: 10px;
+    font-size: 27px;
+}
