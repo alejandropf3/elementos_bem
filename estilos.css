@@ -91,16 +91,61 @@
 }
 
 .card_imagen{ /*Asigno tamaño a la imagen de la card*/
-    height: 250px;
-    width: 200px;
+    height: 210px;
+    width: 250px;
     margin: 10px;
     background-size: cover;
 }
 
 .card_texto{ /*aplico estilo al texto de la card*/
-    text-align: left;
+    text-align: center;
     font-family: var(--fuente_titulos);
     color: var(--color_fuente_oscuro);
     font-size: 11px;
     margin: 5px;
+}
+
+.card_precio{
+    font-family: var(--fuente_titulos);
+    font-size: 20px;
+    color: var(--color_fuente_oscuro);
+}
+
+.componente_navegacion{
+    background-color: beige;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.386);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.boton{
+    margin: 10px 0px;
+    background-color: var(--color_principal);
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.244);
+}
+
+.boton:hover{
+    background-color: var(--color_interaccion);
+    transition: 0.2s;
+}
+
+.boton-link{
+    color: var(--color_fuente);
+    font-family: var(--fuente_titulos);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.componente_navegacion-imagen{
+    height: 250px;
+    width:250px ;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 5px 0px;
 }
