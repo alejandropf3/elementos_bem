@@ -111,7 +111,7 @@
     color: var(--color_fuente_oscuro);
 }
 
-.componente_navegacion{
+.componente_navegacion{ /*Estilizo el componente de navegacion*/
     background-color: beige;
     height: 500px;
     width: 400px;
@@ -122,19 +122,19 @@
     padding: 10px;
 }
 
-.boton{
+.boton{ /*Creo un boton*/
     margin: 10px 0px;
     background-color: var(--color_principal);
     border-radius: 10px;
     border: solid 2px rgba(0, 0, 0, 0.244);
 }
 
-.boton:hover{
+.boton:hover{ /*Aplico un pseudo elemento*/
     background-color: var(--color_interaccion);
     transition: 0.2s;
 }
 
-.boton-link{
+.boton-link{ /*aplico estilo a el texto del link*/
     color: var(--color_fuente);
     font-family: var(--fuente_titulos);
     text-decoration: none;
@@ -142,10 +142,61 @@
     font-size: 30px;
 }
 
-.componente_navegacion-imagen{
+.componente_navegacion-imagen{ /*aplico el tamaño y las dimenciones de la imagen*/
     height: 250px;
     width:250px ;
     background-size: cover;
     border-radius: 50%;
     margin: 5px 0px;
+}
+
+.formulario{ /*Aplico dimenciones a el elemento formulario*/
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+    height: 380px;
+    width: 310px;
+    background-image: linear-gradient(rgb(0, 180, 0), darkgreen);
+    border-radius: 15px;
+}
+
+.formulario_label{ /*Aplico estilo al texto*/
+    margin-top: 5px;
+    font-family: var(--fuente_titulos);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color_fuente);
+
+}
+
+.formulario_input{ /*Aplico estilo a la accion*/
+    margin-top: 3px;
+    background-color: white;
+    border: solid 1px var(--color_principal);
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.formulario_input:focus{ /*Aplico un pseudo elemento hover*/
+    background-color: var(--color_principal);
+    transition: 0.5s;
+}
+
+.formulario_boton{ /*aplico estilos al boton del formulario*/
+    margin-top: 20px;
+    background-color: white;
+    font-family: var(--fuente_titulos);
+    font-size: 20px;
+    width: 110px;
+    height: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.148);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.formulario_boton:hover{ /*aplico un pseudo elemento*/
+    background-color: gold;
+    border-color: gold;
+    transition: 0.3s;
 }
