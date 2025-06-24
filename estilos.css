@@ -57,7 +57,7 @@
 
 .mostrario{  /*creo un contenedor llamado mostrario*/
     margin: 0 auto;
-    height: 600px;
+    height: 700px;
     width: 600px;
     border-radius: 10px;
     background-color: var(--color_mostrario);
@@ -72,7 +72,20 @@
     font-size: 27px;
 }
 
+.card_pequeña{ /*creo un elemento card en formato mas pequeño*/
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    height: 280px;
+    width: 210px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgba(255, 255, 255, 0.671);
+    border-radius: 15px;
+    background-size: cover;
+}
+
 .card{ /*creo un elemento card*/
+    display: inline-block;
     margin: 0 auto;
     margin-top: 15px;
     padding: 5px;
@@ -94,7 +107,13 @@
     height: 210px;
     width: 250px;
     margin: 10px;
+}
+
+.card_imagen_pequeña{ /*Asigno tamaño a la imagen de la card en formato pequeño*/
+    height: 200px;
+    width: 150px;
     background-size: cover;
+    border-radius: 15px;
 }
 
 .card_texto{ /*aplico estilo al texto de la card*/
