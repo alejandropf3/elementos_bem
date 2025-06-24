@@ -283,3 +283,36 @@
     font-family: var(--fuente_titulos);
     font-size: 20px;
 }
+
+
+.pie_pagina{ /*aplico estilos al pie de pagina*/
+    background-image: linear-gradient(var(--color_principal), var(--color_complementario));
+    width: 100%;
+    height: 85px;
+    padding: 15px;
+}
+
+.pie_pagina-subtitulo{
+    font-family: var(--fuente_titulos);
+    color: var(--color_fuente);
+}
+
+.pie_pagina-link{
+    color: var(--color_mostrario);
+    margin-top: 5px;
+}
+
+.tab-texto{ /*aplico dimenciones al contenedor*/
+    margin: 0 auto;
+    background-color: coral;
+    height: 100px;
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.tab-contenido{ /*aplico color y tipo de fuentes*/
+    color: var(--color_fuente_oscuro);
+    font-family: var(--fuente_titulos);
+}
