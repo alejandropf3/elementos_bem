@@ -358,3 +358,26 @@
     background-color: rgba(255, 255, 255, 0.646);
     border-radius: 15px;
 }
+
+.reproductor_video{
+    height: 300px;
+    width: 500px;
+}
+
+.barra-lateral{
+    background-color: var(--color_complementario);
+    height: 100%;
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+.barra-imagen{
+    margin: 20px 0px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
